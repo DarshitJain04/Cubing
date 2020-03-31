@@ -1,0 +1,119 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	background-color: #fff;
+	color: #555;
+	font-weight: 300;
+	font-size: 20px;
+	text-rendering: optimizeLegibility;
+}
+
+header{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/four.jfif);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+}
+
+.bg-dark {
+	transition: 0.5s ease;
+	background: transparent !important;
+}
+
+.bg-dark.scrolled {
+	background: #30336B !important;
+}
+
+.navbar-brand{
+	color: #DAE0E2;
+}
+
+.four-text-box{
+	position: absolute;
+	width: 1140px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.blockquote-footer{
+	font-size: 100%;
+	color: #DAE0E2;
+	text-align: right;
+}
+
+h2 {
+	color: #EAF0F1;
+	font-size: 200%;
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	word-spacing: 4px;
+}
+
+h3 {
+	font-size: 200%;
+	text-align: center;
+	color: #2B2B52;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+
+}
+
+h5 {
+	color: #2B2B52;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	letter-spacing: 1px;
+	border-bottom:  0.2px solid #7B8788;
+}
+
+.nav-item a:link,
+.nav-item a:visited{
+	color: #DAE0E2 !important;
+	font-size: 90%;
+	padding: 8px 0px;
+	margin-left: 2px;
+	margin-right: 2px;
+	border-bottom: 2px solid transparent;
+	transition: border-bottom 0.2s;
+}
+
+.nav-item a:hover,
+.nav-item a:active {
+	color: #EAF0F1 !important;
+	border-bottom: 2px solid #7B8788;
+	transition: border-bottom 0.2s;
+}
+
+
+section {
+	padding: 80px 0px;
+}
+
+.wca-logo {
+	padding-top: 30px;
+}
+
+
+
+.container-one {
+	border-top: 0.2px solid #7B8788;
+}
+
+
+.container-two {
+	margin-top: 30px;
+}
+
+
+.icons a {
+	padding-right: 67px;
+}
