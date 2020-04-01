@@ -1,22 +1,20 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-
-html {
-	background-color: #fff;
-	color: #555;
+html , body {
+	height: 100%;
+	width: 100%;
+	color: #222;
+	background-color: #EAF0F1;
 	font-weight: 300;
 	font-size: 20px;
-	text-rendering: optimizeLegibility;
 }
 
-header{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/four.jfif);
-	height: 100vh;
-	background-position: center;
+header {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/four.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	background-size: cover;
+	height: 100vh;
+	width: 100vw;
 }
 
 .bg-dark {
@@ -32,53 +30,12 @@ header{
 	color: #DAE0E2;
 }
 
-.four-text-box{
-	position: absolute;
-	width: 1140px;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
-
-.blockquote-footer{
-	font-size: 100%;
-	color: #DAE0E2;
-	text-align: right;
-}
-
-h2 {
-	color: #EAF0F1;
-	font-size: 200%;
-	font-weight: 300;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	word-spacing: 4px;
-}
-
-h3 {
-	font-size: 200%;
-	text-align: center;
-	color: #2B2B52;
-	font-weight: 400;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	padding-bottom: 20px;
-
-}
-
-h5 {
-	color: #2B2B52;
-	padding-top: 30px;
-	padding-bottom: 30px;
-	text-align: center;
-	letter-spacing: 1px;
-	border-bottom:  0.2px solid #7B8788;
-}
-
 .nav-item a:link,
 .nav-item a:visited{
 	color: #DAE0E2 !important;
 	font-size: 90%;
+	font-weight: 400;
+	text-transform: uppercase;
 	padding: 8px 0px;
 	margin-left: 2px;
 	margin-right: 2px;
@@ -93,16 +50,64 @@ h5 {
 	transition: border-bottom 0.2s;
 }
 
+.four-text-box {
+	padding-top: 240px;
+}
 
-section {
-	padding: 80px 0px;
+.four-text-box h1 {
+	font-size: 50px;
+	color: #DAE0E2;
+	font-weight: 500;
+}
+
+.blockquote-footer {
+	text-align: right;
+	padding-right: 60px;
+	padding-bottom: 20px;
+	font-size: 24px;
+	color: #99AAAB;
+}
+
+.heading h2 {
+	padding-top: 85px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 400;
+	padding-bottom: 20px;
+}
+
+.info {
+	text-align: center;
 }
 
 .wca-logo {
-	padding-top: 30px;
+	padding-top: 40px;
+}
+
+.wca-org {
+	padding-top: 10px;
+
 }
 
 
+h3 {
+	font-size: 200%;
+	text-align: center;
+	color: #2B2B52;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding-bottom: 20px;
+}
+
+h5 {
+	color: #2B2B52;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	letter-spacing: 1px;
+	border-bottom:  0.2px solid #7B8788;
+}
 
 .container-one {
 	border-top: 0.2px solid #7B8788;
@@ -113,7 +118,18 @@ section {
 	margin-top: 30px;
 }
 
-
-.icons a {
-	padding-right: 67px;
+#github {
+	padding-right: 20px;
 }
+
+
+#facebook {
+	padding-right: 20px;
+}
+
+
+#instagram {
+	padding-right: 20px;
+}
+
+
