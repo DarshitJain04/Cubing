@@ -8,11 +8,11 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/NEWMAIN.css">
 </head>
 <body>
-	<header id="top">
-		<div class="container">
+	<header id=top>
+		<div class="container-fluid">
 			<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
 				<a class="navbar-brand" href="#top">
 					<img src="img/cube.svg" style="width:40px;" alt="Logo">
@@ -36,32 +36,46 @@
 				</div>
 			</nav>
 		</div>
-		<div class="four-text-box">
-			<blockquote class="blockquote">
-					<h2>"I wanted nothing else than to make the object as perfect as possible."</h2>
-					<footer class="blockquote-footer">Erno Rubik</footer>
-			</blockquote>
+		<div class="container-fluid">
+			<div class="row justify-content-center four-text-box">
+				<div class="col-12 text-center mx-auto">
+					<blockquote class="blockquote">
+						<h1>"I wanted nothing else than to make the object as perfect as possible."</h1>
+						<footer class="blockquote-footer">Erno Rubik</footer>
+					</blockquote>
+				</div>
+			</div>
 		</div>
 	</header>
 
 	<section>
-		<div class="container">
-			<h3><img src="img/speedcubing.svg" style="width: 35px"> Speedcubing</h3>
-			<div class="row">  
-				<p>The Rubik's Cube was invented in 1974 by Hungarian professor of architecture, Ernő Rubik. A widespread international interest in the cube began in 1979, which soon developed into a global craze.On June 5, 1982, the first world championship was held in Budapest, Hungary. 19 people competed in the event and the American Minh Thai won with a single solve time of 22.95 seconds. Other notable attendees include Jessica Fridrich and Lars Petrus, two people who would later be influential in the development of solving methods and the speedcubing community.The height of the Rubik's Cube craze began to fade away after 1983, but with the advent of the Internet, sites relating to speedcubing began to surface. Simultaneously spreading effective speedsolving methods and teaching people new to the cube to solve it for the first time, these sites brought in a new generation of cubers, created a growing international online community, and raised the profile of the art.</p>
-
-				<div class="col-sm-8">	
-					<p>The World Cube Association (WCA) is the worldwide organization that regulates and holds competitions for mechanical puzzles that are operated by twisting groups of pieces, commonly known as twisty puzzles (a subcategory of combination puzzles). The most famous of those puzzles is the Rubik's Cube. The WCA was founded by Ron van Bruchem of the Netherlands and Tyson Mao of the United States. The goal of the World Cube Association is to have "more competitions in more countries with more people and more fun, under fair conditions. In 2017, they started work to become a non-profit organization and on November 20, 2017 the state of California accepted the initial registration of the World Cube Association.</p>
+		<div class="container-fluid">
+			<div class="row justify-content-center heading">
+				<div class="col-sm-4 mx-auto text-center">
+					<h2><img src="img/speedcubing.svg" style="width: 35px"> Speedcubing</h2>
 				</div>
-				<div class="col-sm-4 wca-logo">
-					<img src="img/WCA.svg" style="width: 300px" alt="WCA Logo">
+				<div class="row info">
+					<div class="col-sm-6"></div>
+					<p>The Rubik's Cube was invented in 1974 by Hungarian professor of architecture, Ernő Rubik. A widespread international interest in the cube began in 1979, which soon developed into a global craze.On June 5, 1982, the first world championship was held in Budapest, Hungary. 19 people competed in the event and the American Minh Thai won with a single solve time of 22.95 seconds. Other notable attendees include Jessica Fridrich and Lars Petrus, two people who would later be influential in the development of solving methods and the speedcubing community.The height of the Rubik's Cube craze began to fade away after 1983, but with the advent of the Internet, sites relating to speedcubing began to surface. Simultaneously spreading effective speedsolving methods and teaching people new to the cube to solve it for the first time, these sites brought in a new generation of cubers, created a growing international online community, and raised the profile of the art.</p>
 				</div>
-				<p>The organization is run by the board members. It assigns different t
-				eams and committees as well as delegates who can organize official competitions. The presence of a delegate is required in order to make the competition official. As of January 2020, more than 138,000 people from around the world have participated in WCA competitions.</p>
+				<div class="row justify-content-center">
+					<div class="col-sm-8 text-center mx-auto">	
+						<p>The World Cube Association (WCA) is the worldwide organization that regulates and holds competitions for mechanical puzzles that are operated by twisting groups of pieces, commonly known as twisty puzzles (a subcategory of combination puzzles). The most famous of those puzzles is the Rubik's Cube. The WCA was founded by Ron van Bruchem of the Netherlands and Tyson Mao of the United States. The goal of the World Cube Association is to have "more competitions in more countries with more people and more fun, under fair conditions. In 2017, they started work to become a non-profit organization and on November 20, 2017 the state of California accepted the initial registration of the World Cube Association.</p>
+					</div>
+					<div class="col-sm-4 text-center mx-auto wca-logo">
+						<img src="img/WCA.svg" style="width: 300px" alt="WCA Logo">
+					</div>
+				</div>
+				<div class="row justify-content-center wca-org">
+					<div class="col-12 text-center mx-auto">	
+						<p>The organization is run by the board members. It assigns different teams and committees as well as delegates who can organize official competitions. The presence of a delegate is required in order to make the competition official. As of January 2020, more than 138,000 people from around the world have participated in WCA competitions.</p>
+					</div>
+				</div>
 			</div>
 		</div>
+
 		<div class="topcubers" id="topcubers">
-			<div class="container container-one">
+			<div class="container-fluid container-one">
 				<h3 class="mt-3">Top speedcubers</h3>
 				<div class="card-deck">
 					<div class="card text-center shadow">
@@ -90,7 +104,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="container container-two">
+			<div class="container-fluid container-two ">
 				<div class="card-deck">
 					<div class="card text-center shadow">
 						<img class="card-img-top" src="img/JC.png" alt="Jack Cai">
@@ -119,20 +133,19 @@
 				</div>
 			</div>
 		</div>	
-		<div class="container">
+		<div class="container-fluid">
 			<h5>Here's a speedcubing documentry shot by the Cubicle Team : <a href="https://www.youtube.com/watch?v=1oZY2e25VUw ">Why We Cube?</a></h5>
-		</div>	
+		</div>
 		<h3 id="contact">Contact Me</h3>
-		<div class="row justify-context-center icons">
-			<div class="col-sm-4 mx-auto">
-				<a href="#"><img src="img/github-logo.svg" style="width: 50px" alt="GitHub"></a>
-				<a href="#"><img src="img/instagram.svg" style="width: 50px" alt="Instagram"></a>
-				<a href="#"><img src="img/facebook.svg" style="width: 50px" alt="Facebook"></a>
-				<a href="#"><img src="img/gmail-logo.svg" style="width: 50px" alt="Gmail"></a>
+		<div class="row justify-content-center icons">
+			<div class="col-sm-4 mx-auto text-center ">
+				<a href="#" id="github"><img src="img/github-logo.svg" style="width: 50px" alt="GitHub"></a>
+				<a href="#" id="instagram"><img src="img/instagram.svg" style="width: 50px" alt="Instagram"></a>
+				<a href="#" id="facebook"><img src="img/facebook.svg" style="width: 50px" alt="Facebook"></a>
+				<a href="#" id="gmail"><img src="img/gmail-logo.svg" style="width: 50px" alt="Gmail"></a>
 			</div>
 		</div>
 	</section>
-
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
